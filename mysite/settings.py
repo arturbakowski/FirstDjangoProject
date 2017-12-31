@@ -25,7 +25,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'f!p3-dw=_x1*h*u^56*@&qx&p5x&-wnqor)0y4b@)sr4a#$qy6'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['bouq.pythonanywhere.com', 'localhost', '.herokuapp.com']
 
