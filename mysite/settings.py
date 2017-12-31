@@ -78,8 +78,8 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 # https://docs.djangoproject.com/en/1.8/ref/settings/#databases
 
 
- STARA BAZA
- DATABASES = {
+# BAZA DLA PYTHONANYWHERE
+DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
@@ -87,7 +87,7 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
  }
 
 # BAZA DLA HEROKU
-#DATABASES = {
+# DATABASES = {
 #    'default': {
 #        'ENGINE': 'django.db.backends.postgresql_psycopg2',
 #        'NAME': 'djangogirls',
